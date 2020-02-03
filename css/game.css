@@ -1,0 +1,93 @@
+
+.header{
+    background-color: rgb(255, 140, 73);
+    width: auto;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+.header h1{
+    color: rgb(0, 98, 209);
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    line-height: 80px;
+}
+body{
+    background-color: rgb(255, 184, 102);
+}
+.game{
+    width: auto;
+    height: 500px;
+    /* background-color: crimson; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+
+}
+.quest button {
+    height: 40px;
+    width: 300px;
+    color: rgb(10, 0, 150);
+    background-color: rgb(0, 160, 255);
+    border-radius: 3px;
+    display: block;
+    margin: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.quest button:hover {
+    background-color: rgb(0, 190, 255);
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: rgb(0, 140, 255);
+    font-size: 21px;
+    transition: 0.3s;
+}
+
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.msg{
+    display: none;
+    height: 150px;
+    width: 350px;
+    background-color: rgb(255, 165, 47);
+    position: relative;
+    top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-radius: 4px;
+    border-color: rgb(255, 140, 8);
+    text-align: center;
+}
+
+.msg button {
+    width: 80px;
+    height: 30px;
+    color: rgb(10, 0, 150);
+    background-color: rgb(0, 170, 255);
+    font-size: 20px;
+    cursor: pointer;
+    border: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: rgb(0, 54, 155);
+}
+.msg .victory{
+    color: rgb(0, 60, 255);
+    font-size: 30px;
+}
+
+.hide{
+    display: none;
+}
